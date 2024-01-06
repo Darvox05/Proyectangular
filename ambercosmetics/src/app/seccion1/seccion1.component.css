@@ -1,7 +1,9 @@
 .seccion1 {
-    background-color: rgb(245, 142, 142);
-    padding-bottom: 50px;
-  }
+  background-color: rgb(245, 142, 142);
+  padding: 67px;
+  margin: 0;
+
+}
 
 
   #listaservicios {
@@ -28,4 +30,18 @@
 
   p {
     font-family: "Inria Serif", serif;
+  }
+
+
+  img{
+    height: 200px;
+    width: 200px;
+  }
+
+
+  .card{
+    background: #f58e8e;border: 5px solid white;
+    padding: 12px;
+    color: white;
+    font-size: 20px;
   }
