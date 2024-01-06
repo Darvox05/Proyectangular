@@ -1,0 +1,42 @@
+.rectangulo1 {
+    width: 100%;
+    height: auto;
+    background-color: rgb(245, 142, 142);
+    font-family: "Inria Serif", serif;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: "Inria Serif", serif;
+  }
+  
+  .st {
+    border-collapse: collapse;
+    width: auto;
+    margin: auto;
+  }
+
+  .st td {
+    padding: 4px;
+    text-align: center;
+    font-size: 23px;
+    color: #63008ac0;
+  }
+
+  img {
+    max-width: 400%;
+    max-height: 400px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .square2 {
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    text-align: center;
+    color: #000000;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    margin: 0 100px;
+  }

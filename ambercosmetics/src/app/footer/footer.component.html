@@ -1,0 +1,55 @@
+<footer>
+    <div class="containerx">
+        <div class="row">
+            <div class="col-md-9">
+                <p>Ubicación</p> 
+                <img src="assets/img/Group 8680.png" alt="ubi">
+                <p>Cra 4 # 12B-70</p>
+                <img src="" alt="">
+                <br>
+                <img src="assets/img/Group 8679.png" alt="8679">
+                <p>Telefono:3163456598</p>
+                <a href="https://wa.me/573203809885">
+                    <img id="wa" src="assets/img/whatsapp.png" alt="Imagen wa">
+                </a> 
+                <p><a href="https://wa.me/573203809885">Whatsapp</a></p>
+            </div>
+            <div class="col-md-6">
+                <form id="idFormulario">
+                    <div class="mb-3">
+                        <!-- <input type="text" placeholder="Digita tu usuario" id="usuario" /> -->
+                        <label for="nombre" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Tu Nombre">
+                        <span id="nombreError" class="color-error"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="text" class="form-control" id="email" placeholder="Tu Correo Electrónico">
+                        <span id="emailError" class="color-error"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">Messages</label>
+                        <textarea class="form-control" id="mensaje" rows="4" placeholder="Tu Mensaje"></textarea>
+                        <span id="mensajeError" class="color-error"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <p > &copy; Copyright 2023  - Amber Cosmetics | All Right Reserved Privacy Secure </p>
+    <a [routerLink]="['/inicio']" routerLinkActive="active">inicio</a>
+    <a routerLink="/about">about</a>
+    <li><a routerLink="/contact">contact</a>
+</footer>
+
+<!--
+<script src="script.js">
+</script>
+<script> 
+        const formulario = new ValidadorFormulario('idFormulario');
+</script>
+<script src="scriptlistaservicios.js"></script>
+</body>
+</html>
+-->

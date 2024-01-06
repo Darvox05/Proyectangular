@@ -1,0 +1,31 @@
+.seccion1 {
+    background-color: rgb(245, 142, 142);
+    padding-bottom: 50px;
+  }
+
+
+  #listaservicios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+  }
+
+  .square1 {
+    text-align: center;
+    border: 2px solid white;
+    padding: 20px;
+    margin: 80px;
+  }
+
+  .rectangulo3 {
+    width: auto;
+    height: auto;
+    background-color: rgb(245, 142, 142);
+    font-family: "Inria Serif", serif;
+  }
+
+  p {
+    font-family: "Inria Serif", serif;
+  }

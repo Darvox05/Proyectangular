@@ -1,0 +1,33 @@
+footer {
+    background-color: rgb(66, 11, 85);
+    color: #fff;
+    padding: 10px;
+  }
+
+
+  footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+#wa {
+    width: 50px;
+    height: 50px;
+  }
+
+.col-md-9{
+    width: 50%;
+    height: 50%;
+
+}
+
+.error-input {
+    border: 9px solid red;
+    display: block;
+  }
+  
+  .color-error {
+    color: red;
+    border: 1px;
+  }

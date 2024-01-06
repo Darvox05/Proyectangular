@@ -1,0 +1,44 @@
+#imagen-superior-izquierda {
+  position: absolute;
+  left: 0;
+  margin-left: 100px;
+  margin-top: 13px;
+}
+
+#imagen-centro {
+  display: inline-block;
+}
+
+#imagen-superior-derecha {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-left: 100px;
+  margin-top: 13px;
+}
+
+nav {
+  width: 1149px;
+  background-color: hwb(313 23% 17% / 0.1);
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin: 0 50px;
+}
+
+#header {
+    background-color: hwb(313 23% 17% / 0.6);
+    border: 2px solid hwb(0 62% 36% /0.6);
+    text-align: center;
+    padding: 2px;
+    position: relative;
+    width: 1146px;
+    height: 80px;
+}
